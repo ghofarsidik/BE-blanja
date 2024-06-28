@@ -33,7 +33,7 @@ func main() {
 
 	// CORS middleware configuration
 	app.Use(cors.New(cors.Config{
-		AllowOrigins:     "https://blanja-kelompok-1.vercel.app",
+		AllowOrigins:     "*",
 		AllowMethods:     "GET,POST,PUT,DELETE,OPTIONS",
 		AllowHeaders:     "*",
 		ExposeHeaders:    "Content-Length",
