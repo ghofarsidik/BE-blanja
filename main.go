@@ -5,9 +5,10 @@ import (
 	"os"
 	"server/src/configs"
 	"server/src/helpers"
+	"server/src/routes"
 	"server/src/services"
 
-	"server/src/routes"
+	"github.com/gofiber/helmet/v2"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
@@ -31,13 +32,12 @@ func main() {
 
 	app := fiber.New()
 
-	// CORS middleware configuration
+	app.Use(helmet.New())
 	app.Use(cors.New(cors.Config{
-		AllowOrigins:     "*",
-		AllowMethods:     "GET,POST,PUT,DELETE,OPTIONS",
-		AllowHeaders:     "*",
-		ExposeHeaders:    "Content-Length",
-		AllowCredentials: true,
+		AllowOrigins:  "*",
+		AllowMethods:  "GET,POST,PUT,DELETE",
+		AllowHeaders:  "*",
+		ExposeHeaders: "Content-Length",
 	}))
 
 	configs.InitDB()
