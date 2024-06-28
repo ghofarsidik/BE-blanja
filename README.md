@@ -62,6 +62,7 @@ Ensure you have the following installed on your local machine:
 
 - Go
 - PostgreSQL
+- Ngrok 
 
 ### Installation
 
@@ -86,8 +87,9 @@ Ensure you have the following installed on your local machine:
 3. Setup enviroment ```.env``` 
 
    ```sh
+
       URL="host=your_hostname_db user=your_username_db password=your_password_db dbname=your_db port=your_port sslmode=optional; TimeZone=optional"
-   
+      
       JWT_KEY=your_jwt_key
    
       BASE_URL=base_url_from_your_api_development || default localhost:3000
@@ -113,10 +115,25 @@ Ensure you have the following installed on your local machine:
 
 3. Running the project
 
+  install depedencies
+
+
+   ```sh
+     go run main.go
+   ```
+
    ```sh
      air
    ```
 
+4. Turn on your Ngrok and forward your port
+
+   ```sh
+     ngrok http 3000
+
+    The default port is 3000
+   ```
+  
 The server will start on port 3000 by default. You can use Postman to interact with the endpoints in [Documentation](#documentation).
 
 ## Usage
