@@ -31,7 +31,8 @@
 
 ## About The Project
 
-Blanja is a sales application specializing in clothing items, including jackets, pants, t-shirts, and shirts. The application is built using React.js for the client side and Golang for developing the RESTful API. With the assistance of the Gofiber framework, Blanja offers functionalities such as search, authentication, authorization, add-to-cart, customer address addition, and checkout features utilizing the payment gateway from Midtrans.
+Blanja is a sales application specializing in clothing items, including jackets, pants, t-shirts, and shirts. The application is built using React.js for the client side and Golang for developing the RESTful API. With the assistance of the Gofiber framework, Blanja offers functionalities such as (search, sorting, filtering) products, authentication, authorization, add-to-cart, customer address addition, email verification, and checkout features utilizing the payment gateway from Midtrans.
+
 
 ### Built With
 
