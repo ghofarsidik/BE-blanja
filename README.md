@@ -162,6 +162,10 @@ golang-server-blanja/
         main.exe
 ```
 
+### ERD
+
+To view the Entity Relationship Diagram you can visit the following link [ERD Blanja Innovation](https://drawsql.app/teams/dimas-team-8/diagrams/blanja-kelompok-1)
+
 ### Documentation
 
 Access the API documentation for the **Blanja** project. Use this documentation to test endpoints and understand the structure and functionality of the available APIs in this project.
