@@ -115,16 +115,16 @@ Ensure you have the following installed on your local machine:
 
 3. Running the project
 
-  install depedencies
+   install depedencies
 
 
-   ```sh
-     go run main.go
-   ```
+    ```sh
+      go run main.go
+    ```
 
-   ```sh
-     air
-   ```
+    ```sh
+      air
+    ```
 
 4. Turn on your Ngrok and forward your port
 
