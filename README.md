@@ -129,7 +129,7 @@ Ensure you have the following installed on your local machine:
 4. Turn on your Ngrok and forward your port
 
    ```sh
-     ngrok http 3000
+    ngrok http 3000
 
     The default port is 3000
    ```
