@@ -9,6 +9,12 @@ import (
 )
 
 func Router(app *fiber.App) {
+	app.Get("/", func(c *fiber.Ctx) error {
+		return c.Status(fiber.StatusOK).JSON(fiber.Map{
+			"info":    "Hello, wellcome to the API Blanja Innovation Group.😊",
+			"message": "Server is running.",
+		})
+	})
 	api := app.Group("/v1")
 	auth := api.Group("/auth")
 	api.Get("/users", controllers.GetAllUser)
