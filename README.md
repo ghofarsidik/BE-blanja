@@ -82,6 +82,34 @@ Ensure you have the following installed on your local machine:
       code .
     ```
 
+3. Setup enviroment ```.env``` 
+
+   ```sh
+      URL="host=your_hostname_db user=your_username_db password=your_password_db dbname=your_db port=your_port sslmode=optional; TimeZone=optional"
+   
+      JWT_KEY=your_jwt_key
+   
+      BASE_URL=base_url_from_your_api_development || default localhost:3000
+   
+      CLOUDINARY_URL="cloudinary://your_cloudinary_url"
+   
+      API_SECRET=cloudinary_api_secret
+   
+      API_KEY=cloudinay_api_key
+   
+      CLOUD_NAME=cloudinary_name
+   
+      SMTP_USERNAME=your_email_smtp
+   
+      SMTP_PASSWORD=your_pass_smtp
+   
+      SERVER_KEY=midtrans_server_key
+   
+      CLIENT_KEY=midtrans_client_key
+   
+      WEB_URL=http://yourwebsite
+    ```
+
 3. Running the project
 
    ```sh
