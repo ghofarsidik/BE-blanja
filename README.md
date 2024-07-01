@@ -15,12 +15,15 @@
   </p>
 </div>
 
-- [Table of Contents](#table-of-contents)
+## Table Of Contents 
+
+- [Table of Contents](#table-of-contents))
 - [About The Project](#about-the-project)
   - [Built With](#built-with)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
+- [Contributors](#contributors)
 - [Contributing](#contributing)
 - [Contact](#contact)
 - [Documentation](#documentation)
@@ -51,6 +54,8 @@ Blanja is a sales application specializing in clothing items, including jackets,
 [JSON Web Token](https://jwt.io/)
 
 [Bluemonday](https://github.com/microcosm-cc/bluemonday)
+
+[NetSMTP](https://pkg.go.dev/net/smtp)
 
 ## Getting Started
 
@@ -228,6 +233,48 @@ Access the API documentation for the **Blanja** project. Use this documentation 
 - [`Back-End Demonstration Link`](https://golang-server-blanja-production.up.railway.app/)
 
 
+## Contributors
+
+Here are the contributors to the project and their respective roles:
+
+<table>
+<tr>
+<td> <img width="360" height="360" src="https://github.com/dimassagngsptr/blanja-kelompok-1/blob/58b4f42682a91658138b4fb75bf68669028b1348/apps/web/src/assets/screenshot/dimas.jpg" /> </td>
+<td>
+
+**Dimas Ageng Saputro**: Project Manager, Fullstack Developer </br>
+Github   :  [github.com/dimassagngsptr](https://github.com/dimassagngsptr)</br>
+Linkedin : [linkedin.com/in/dimasagengsaputro](https://www.linkedin.com/in/dimasagengsaputro/)
+
+</td>
+</tr>
+<tr>
+<td> <img width="360" height="360" src="https://github.com/dimassagngsptr/blanja-kelompok-1/blob/58b4f42682a91658138b4fb75bf68669028b1348/apps/web/src/assets/screenshot/ghaffar.JPG" /> </td>
+<td>
+
+**Abdul Ghaffar Sidik**: Fullstack Developer </br>
+Github   :  [github.com/ghofarsidik](https://github.com/ghofarsidik)</br>
+Linkedin : [linkedin.com/in/abdul-ghaffar-sidik](https://www.linkedin.com/in/abdul-ghaffar-sidik/)
+
+</td>
+</tr>
+<tr>
+<td> <img width="360" height="360" src="https://github.com/dimassagngsptr/blanja-kelompok-1/blob/58b4f42682a91658138b4fb75bf68669028b1348/apps/web/src/assets/screenshot/azhar.png" /> </td>
+<td>
+
+**Burhanuddin Azhar**: Frontend Developer </br>
+Github   :  [github.com/Azhar-54](https://github.com/Azhar-54) </br>
+Linkedin : [linkedin.com/in/burhanudin-azhar](https://www.linkedin.com/in/burhanudin-azhar/)
+
+</td>
+</tr>
+
+
+
+
+</table>
+
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -250,6 +297,5 @@ linkedin : https://www.linkedin.com/in/dimasagengsaputro/
 
 Feel free to check it out:
 
-- [Img Shields](https://shields.io)
 - [Choose an Open Source License](https://choosealicense.com/)
 - [GitHub Pages](https://pages.github.com/)
