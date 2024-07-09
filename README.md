@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://github.com/dimassagngsptr/react-client-blanja.git">
+  <a href="https://github.com/ghofarsidik/BE-blanja.git">
       <img src="https://github.com/dimassagngsptr/blanja-kelompok-1/blob/master/apps/web/src/assets/logo/Group%201158.png" width="300"/>
   </a>
 
@@ -11,7 +11,7 @@
     <br />
     <a href="https://innovation-blanja.vercel.app/" target="_blank">View Website Demo</a>
     ·
-     <a href="https://github.com/dimassagngsptr/golang-server-blanja.git" target="_blank">View Back-End Repo</a>
+     <a href="https://github.com/ghofarsidik/FE-Blanja.git" target="_blank">View Front-End Repo</a>
   </p>
 </div>
 
@@ -148,7 +148,7 @@ To use this project, follow the instructions below for understanding the project
 ### Project Structure
 
 ```
-golang-server-blanja/
+BE-blanja/
  .air.toml
 │   .env
 │   .gitignore
@@ -226,7 +226,7 @@ Access the API documentation for the **Blanja** project. Use this documentation 
 
 ### Project Related
 
-- [`Front-End Project Repository Link`](https://github.com/dimassagngsptr/react-client-blanja.git)
+- [`Front-End Project Repository Link`](https://github.com/ghofarsidik/FE-Blanja.git)
 
 - [`Front-End Demonstration Link`](https://innovation-blanja.vercel.app/)
 
